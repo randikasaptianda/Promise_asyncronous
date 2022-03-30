@@ -1,0 +1,59 @@
+.container .search {
+  padding-top: 7rem;
+}
+
+.emptyKeyword {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(104, 179, 113);
+}
+
+.noConnection {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(196, 211, 55);
+}
+
+.noNews {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(172, 130, 39);
+}
+
+.loader {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #ce2955;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
